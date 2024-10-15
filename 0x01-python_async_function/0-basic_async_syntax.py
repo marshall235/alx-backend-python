@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """
 An asynchronus coroutine that takes an integer argument
 'max_delay' named wait_random that waits for random delay
