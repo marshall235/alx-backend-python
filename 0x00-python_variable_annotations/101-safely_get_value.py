@@ -1,10 +1,8 @@
 #!/usr/bin env python3
 """
-Given the parameters and the return values, 
+Given the parameters and the return values,
 add type annotations to the function
-
 Hint: look into TypeVar
-
 def safely_get_value(dct, key, default = None):
     if key in dct:
         return dct[key]
@@ -19,7 +17,7 @@ T = typing.TypeVar('T')
 
 def safely_get_value(dct: typing.Mapping, key: typing.Any, default: 
         typing.Union[T, None] = None) -> \
-typing.Union[typing.Any, T]:
+                typing.Union[typing.Any, T]:
     """
     More involved type annotations
     """
